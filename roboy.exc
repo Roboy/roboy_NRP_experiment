@@ -6,12 +6,13 @@
     <thumbnail>RoboyLogo.png</thumbnail>
     <description>This experiment shows how to control Myorobotics robots using the platform in simulation and hardware. </description>
     <timeout>840</timeout>
-    <!-- <environmentModel src="spacebotcup_world/spacebotcup_world.sdf">
-        <robotPose x="0.0" y="0.0" z="-0.157" ux="0.0" uy="0.0" uz="1.0" theta="0.0"/>
-    </environmentModel> -->
+    <environmentModel src="empty_world/empty_world.sdf">
+        <robotPose x="0.0" y="0.0" z="0.5" ux="0.0" uy="0.0" uz="0.0" theta="0.0"/>
+    </environmentModel>
     <bibiConf src="roboy.bibi"/>
     <cameraPose>
         <cameraPosition x="4.5" y="0" z="1.8"/>
         <cameraLookAt x="0" y="0" z="0.6"/>
     </cameraPose>
+    <!-- <rosLaunch src="robot_description.launch"/> -->
 </ExD>
