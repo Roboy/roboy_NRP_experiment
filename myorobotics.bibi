@@ -5,6 +5,7 @@
 		<populations population="neurons" xsi:type="Range" from="0" to="2"/>
 		<populations population="record" xsi:type="Range" from="0" to="2"/>
   </brainModel>
+  <!-- <bodyModel>roboy/model.sdf</bodyModel> -->
   <bodyModel>p3dx/pioneer3dx.sdf</bodyModel>
   <transferFunction xsi:type="PythonTransferFunction" src="control.py"/>
 

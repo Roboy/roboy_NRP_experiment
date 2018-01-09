@@ -3,7 +3,7 @@
      xmlns="http://schemas.humanbrainproject.eu/SP10/2014/ExDConfig"
      xsi:schemaLocation="http://schemas.humanbrainproject.eu/SP10/2014/ExDConfig ../ExDConfFile.xsd">
     <name>Myorobotics example</name>
-    <thumbnail>RoboyLogo.png</thumbnail>
+    <thumbnail>RoboyLogo.jpg</thumbnail>
     <description>This experiment shows how to control Myorobotics robots using the platform in simulation and hardware. </description>
     <timeout>840</timeout>
     <environmentModel src="empty_world/empty_world.sdf">
