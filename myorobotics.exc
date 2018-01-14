@@ -14,5 +14,4 @@
         <cameraPosition x="4.5" y="0" z="1.8"/>
         <cameraLookAt x="0" y="0" z="0.6"/>
     </cameraPose>
-    <!-- <rosLaunch src="robot_description.launch"/> -->
 </ExD>
